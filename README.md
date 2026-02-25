@@ -19,10 +19,5 @@ A simple To-Do List web application built using HTML, CSS, and JavaScript.
 - Event handling (click, submit)
 - Local Storage
 
-## How to Run
-1. Clone the repository.
-2. Open the `to-do-list.html` file in a web browser.
-3. Start adding and managing tasks.
-
 ## Purpose
 This project was built as part of an intern task to demonstrate basic front-end development skills using vanilla JavaScript.
