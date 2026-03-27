@@ -1,23 +1,11 @@
-# To-Do List 
+# CodeAlpha Tasks
 
-A simple To-Do List web application built using HTML, CSS, and JavaScript.
+This repository contains all my internship tasks.
 
-## Features
-- Add new tasks
-- Mark tasks as completed
-- Edit tasks
-- Delete tasks
-- Save tasks using browser localStorage
+## Tasks
 
-## Tech Stack
-- HTML
-- CSS
-- JavaScript
+### Task 1 - To-Do List
+A simple to-do list application.
 
-## Key Concepts
-- CRUD operations
-- Event handling (click, submit)
-- Local Storage
-
-## Purpose
-This project was built as part of an intern task to demonstrate basic front-end development skills using vanilla JavaScript.
+### Task 2 - Music Player
+A basic music player application.
