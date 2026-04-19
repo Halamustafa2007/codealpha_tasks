@@ -16,7 +16,7 @@ A responsive music player with play, pause, next, and previous controls.
 
 A collaborative project management tool inspired by Trello / Asana.
 
-### Features:
+### Features
 
 * User Register / Login
 * Create Projects
@@ -39,7 +39,3 @@ A collaborative project management tool inspired by Trello / Asana.
 * Node.js
 * Express.js
 * Socket.IO
-
-## Author
-
-Halamustafa2007
