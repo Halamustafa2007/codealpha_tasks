@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TaskFlow Pro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>TaskFlow Pro</h1>
+
+<div class="auth">
+
+<input type="text" id="name" placeholder="Name">
+<input type="email" id="email" placeholder="Email">
+<input type="password" id="password" placeholder="Password">
+
+<button onclick="registerUser()">Register</button>
+<button onclick="loginUser()">Login</button>
+
+</div>
+
+<div class="top">
+
+<input type="text" id="projectName" placeholder="Create Project">
+<button onclick="addProject()">Add Project</button>
+
+</div>
+
+<div id="projects"></div>
+
+<div class="task-box">
+
+<input type="text" id="taskTitle" placeholder="Task Name">
+<input type="text" id="assignUser" placeholder="Assign User">
+<input type="text" id="commentInput" placeholder="Comment">
+
+<select id="status">
+<option>To Do</option>
+<option>In Progress</option>
+<option>Done</option>
+</select>
+
+<button onclick="addTask()">Add Task</button>
+
+</div>
+
+<div class="board">
+
+<div class="column">
+<h2>To Do</h2>
+<div id="todo"></div>
+</div>
+
+<div class="column">
+<h2>In Progress</h2>
+<div id="progress"></div>
+</div>
+
+<div class="column">
+<h2>Done</h2>
+<div id="done"></div>
+</div>
+</div>
+
+<script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
